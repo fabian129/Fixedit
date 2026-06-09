@@ -97,10 +97,9 @@ const Hero = () => {
         <div className="hidden lg:block marker -top-[2.5px] -left-[2.5px]"></div>
         <div className="hidden lg:block marker -top-[2.5px] -right-[2.5px]"></div>
 
-        <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/2cd4b4af-fea6-4fa5-a9c4-c0c963623db7_1600w.png" alt="Edge vision intelligence" className="contrast-125 group-hover:scale-105 transition-transform duration-1000 ease-out opacity-60 mix-blend-lighten w-full h-full object-cover grayscale" />
+        <img src="/hero-shards.jpg" alt="Floating blue glass shards — edge intelligence" className="contrast-110 group-hover:scale-105 transition-transform duration-1000 ease-out opacity-90 w-full h-full object-cover" />
 
-        <div className="absolute inset-0 z-10 pointer-events-none bg-cover bg-center bg-[url(https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/32ec2ecf-e699-440d-9f1c-f0a2515b3040_1600w.png)]">
-        </div>
+        <div className="absolute inset-0 z-10 pointer-events-none bg-gradient-to-t from-[#070b1a]/50 via-transparent to-transparent"></div>
 
         <div className="absolute bottom-4 left-4 z-20">
           <iconify-icon icon="solar:cctv-camera-bold-duotone" class="text-white/80 text-3xl"></iconify-icon>
